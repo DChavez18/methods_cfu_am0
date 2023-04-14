@@ -74,11 +74,11 @@ p square(4)
 
 def check_stock(num, str)
     if num >= 4
-      return "#{str} is stocked"
-    elsif num <= 1
-      return "#{str} -  running low"
-    elsif num == 0 
-      return " #{str} - Out of stock"
+      p "#{str} is stocked"
+    elsif num > 0
+      p "#{str} -  running low"
+    else 
+      p " #{str} - Out of stock"
     end
 
       
