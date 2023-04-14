@@ -57,7 +57,7 @@ def greet_person(first_name, middle_name, last_name)
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
 def square(num)
-    return "The square root of #{num} = #{Math.sqrt(num)}"
+     "The square of #{num} = #{num * num}"
 end
 
 p square(4)
